@@ -6,7 +6,6 @@ public class PlayerController : MonoBehaviour
     public GameObject ballPrefab;
     public Transform dropPosition;
 
-    // Update is called once per frame
     void Update()
     {
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
